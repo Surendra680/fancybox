@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<a data-fancybox="gallery" href="css/images/px6.webp" data-caption="image one"> <img src="css/images/px6.webp"
+				alt=""></a>
+		<a data-fancybox="gallery" href="css/images/pixabay2.webp" data-caption="image two"> <img
+				src="css/images/pixabay2.webp" alt=""></a>
+		<a data-fancybox="gallery" href="css/images/pixabay3.webp" data-caption="image three"> <img
+				src="css/images/pixabay3.webp" alt=""></a>
+		<a data-fancybox="gallery" href="css/images/px4.webp" data-caption="image four"> <img src="css/images/px4.webp"
+				alt=""></a>
+		<a data-fancybox="gallery" href="css/images/px5.webp" data-caption="image five"> <img src="css/images/px5.webp"
+				alt=""></a>
+		<a data-fancybox="gallery" href="css/images/pixabay1.webp" data-caption="image six"> <img
+				src="css/images/pixabay1.webp" alt=""></a>
+
+
+		<!-- js starts here  -->
+		<script>
+			$(document).ready(function () {
+				$('[data-fancybox]').fancybox({
+
+					animationEffect: 'slide',
+
+				});
+			});
+		</script>
+
+</body>
+
+</html>

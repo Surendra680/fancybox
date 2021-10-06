@@ -1,0 +1,33 @@
+body{
+	background-image: url(images/bg.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 80vh;
+	margin: 10px;
+}
+
+
+.wrapper {
+		margin: 4% auto;
+		width: 90%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content:space-around;
+		align-items: center;
+		
+}
+
+.wrapper a{
+		height: 300px;
+		width: 400px;
+		margin: 10px 0;
+
+}
+.wrapper a img{
+	width: 100%;
+	height: 100%;
+	
+	
+}
